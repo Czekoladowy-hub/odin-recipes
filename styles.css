@@ -1,0 +1,38 @@
+body {
+  background-color: rgba(38, 131, 238, 0.555);
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#spicy-chicken-fry-body {
+  background-color: bisque;
+}
+
+#lasagne-body {
+  background-color: salmon;
+}
+
+#tomato-soup-body {
+  background-color: steelblue;
+}
+
+.recipe-name,
+.main-page-header {
+  text-align: center;
+  font-size: 40px;
+}
+
+.recipe-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 40%;
+}
+
+li {
+  text-align: justify;
+}
+
+p {
+  text-align: justify;
+}
