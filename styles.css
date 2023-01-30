@@ -1,5 +1,5 @@
-body {
-  background-color: rgba(38, 131, 238, 0.555);
+gibody {
+  background-color: hsla(50, 33%, 25%, 0.75);
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
@@ -17,16 +17,22 @@ body {
 
 .recipe-name,
 .main-page-header {
+  background-color: brown;
   text-align: center;
   font-size: 40px;
 }
 
-.recipe-image {
+.recipe-image,
+.main-page-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
   height: auto;
   width: 40%;
+}
+
+.recipe-item {
+  color: black;
 }
 
 li {
