@@ -1,4 +1,8 @@
-gibody {
+* {
+  margin: 0px;
+}
+
+body {
   background-color: hsla(50, 33%, 25%, 0.75);
   font-family: "Lucida Console", "Courier New", monospace;
 }
@@ -8,7 +12,7 @@ gibody {
 }
 
 #lasagne-body {
-  background-color: salmon;
+  background-color: #f7cac9;
 }
 
 #tomato-soup-body {
