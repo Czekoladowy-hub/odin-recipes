@@ -48,3 +48,7 @@ li {
 p {
   text-align: justify;
 }
+
+.recepi-ingredients {
+  margin: 100px;
+}
