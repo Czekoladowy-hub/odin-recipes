@@ -2,6 +2,12 @@
   margin: 0px;
 }
 
+.main-container {
+  width: 60%;
+  border: 5px solid black;
+  margin: auto;
+}
+
 body {
   background-color: hsla(50, 33%, 25%, 0.75);
   font-family: "Lucida Console", "Courier New", monospace;
@@ -26,6 +32,7 @@ body {
   font-size: 40px;
   padding: 10px;
   margin-bottom: 10px;
+  border-bottom: 5px solid black;
 }
 
 .recipe-image,
@@ -34,15 +41,28 @@ body {
   margin-left: auto;
   margin-right: auto;
   height: auto;
-  width: 40%;
+  width: 60%;
+  margin-bottom: 20px;
 }
 
 .recipe-item {
   color: black;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  justify-content: space-between;
+  padding: 0;
+  flex: 1 1 0%;
 }
 
 li {
-  text-align: justify;
+  text-align: center;
+  width: 200px;
+  padding-bottom: 30px;
 }
 
 p {
