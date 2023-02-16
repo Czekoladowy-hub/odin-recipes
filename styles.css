@@ -1,81 +1,46 @@
 * {
-  margin: 0px;
-}
-
-.main-container {
-  width: 60%;
-  border: 5px solid black;
-  margin: auto;
-}
-
-body {
-  background-color: hsla(50, 33%, 25%, 0.75);
-  font-family: "Lucida Console", "Courier New", monospace;
-}
-
-#spicy-chicken-fry-body {
-  background-color: bisque;
-}
-
-#lasagne-body {
-  background-color: #f7cac9;
-}
-
-#tomato-soup-body {
-  background-color: steelblue;
-}
-
-.recipe-name,
-.main-page-header {
-  background-color: brown;
-  text-align: center;
-  font-size: 40px;
-  padding: 10px;
-  margin-bottom: 10px;
-  border-bottom: 5px solid black;
-}
-
-.recipe-image,
-.main-page-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
-  width: 60%;
-  margin-bottom: 20px;
-}
-
-.recipe-item {
-  color: black;
-  text-decoration: none;
+  padding: 0px;
 }
 
 ul {
-  display: flex;
   list-style: none;
-  gap: 10px;
-  justify-content: space-between;
-  padding: 0;
-  flex: 1 1 0%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px;
+  margin: 0px;
 }
 
-li {
-  text-align: center;
-  width: 200px;
-  padding-bottom: 30px;
-}
-
-p {
-  text-align: justify;
-}
-
-.recepi-ingredients {
-  margin: 50px 100px;
-}
-
-.main-page-link {
+a {
+  text-decoration: none;
   color: black;
-  font-weight: bold;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.footer {
+  padding: 20px;
   font-size: 20px;
-  margin-left: 100px;
+}
+
+h1 {
+  margin: 0px;
+  padding-top: 20px;
 }
