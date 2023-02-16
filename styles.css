@@ -20,27 +20,38 @@ body {
   flex-direction: column;
   height: 100vh;
   margin: 0;
+  background-color: lightgrey;
 }
 
 .header {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(177, 177, 177);
+  padding: 10px;
+  margin-bottom: 50px;
 }
 
 .content {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   flex: 1;
+  gap: 20px;
 }
 
 .footer {
   padding: 20px;
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgb(177, 177, 177);
 }
 
 h1 {
   margin: 0px;
-  padding-top: 20px;
+}
+
+h2 {
+  padding: 10px;
 }
