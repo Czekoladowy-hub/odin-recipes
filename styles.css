@@ -67,8 +67,8 @@ h1 {
 .content {
   display: flex;
   flex-direction: row-reverse;
-  gap: 50px;
-  padding: 0 50px;
+  gap: 80px;
+  padding: 0 80px;
 }
 
 .content,
