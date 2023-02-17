@@ -3,9 +3,6 @@
 }
 
 ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
   padding: 0px;
   margin: 0px;
 }
@@ -32,7 +29,7 @@ body {
   margin-bottom: 50px;
 }
 
-.content {
+.main-page-content {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -48,10 +45,37 @@ body {
   background-color: rgb(177, 177, 177);
 }
 
+.recipes-items {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
 h1 {
   margin: 0px;
 }
 
-h2 {
-  padding: 10px;
+.recipe-image {
+  margin: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 50px;
+  padding: 0 50px;
+}
+
+.content,
+.recepi-ingredients {
+  flex: 1;
+}
+
+.ingredients-list {
+  list-style: none;
+}
+
+.main-page-link {
+  display: flex;
+  justify-content: center;
 }
